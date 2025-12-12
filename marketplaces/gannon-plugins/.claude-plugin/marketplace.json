@@ -1,0 +1,25 @@
+{
+  "name": "gannon-plugins",
+  "owner": {
+    "name": "Gannon Hall",
+    "email": "gannon@gannonhall.com"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins marketplace with customized tools and workflows",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "hookify",
+      "source": "./plugins/hookify",
+      "description": "Create hooks to prevent unwanted behaviors - supports both project and user-level rules",
+      "version": "1.0.0",
+      "author": {
+        "name": "Gannon Hall"
+      },
+      "category": "automation",
+      "keywords": ["hooks", "rules", "automation", "prevention", "warnings"]
+    }
+  ]
+}
