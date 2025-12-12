@@ -7,7 +7,7 @@ from functools import lru_cache
 from typing import List, Dict, Any, Optional
 
 # Import from local module
-from hookify.core.config_loader import Rule, Condition
+from core.config_loader import Rule, Condition
 
 
 # Cache compiled regexes (max 128 patterns)
@@ -73,7 +73,8 @@ class RuleEngine:
                 return {
                     "hookSpecificOutput": {
                         "hookEventName": hook_event,
-                        "permissionDecision": "deny"
+                        "permissionDecision": "deny",
+                        "additionalContext": combined_message
                     },
                     "systemMessage": combined_message
                 }
@@ -84,10 +85,16 @@ class RuleEngine:
                 }
 
         # If only warnings, show them but allow operation
+        # Use additionalContext so Claude sees the message, systemMessage for user CLI
         if warning_rules:
             messages = [f"**[{r.name}]**\n{r.message}" for r in warning_rules]
+            combined_message = "\n\n".join(messages)
             return {
-                "systemMessage": "\n\n".join(messages)
+                "hookSpecificOutput": {
+                    "hookEventName": hook_event,
+                    "additionalContext": combined_message
+                },
+                "systemMessage": combined_message
             }
 
         # No matches - allow operation

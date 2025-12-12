@@ -1,17 +1,12 @@
 {
   "name": "hookify",
   "version": "1.0.0",
-  "description": "Create hooks to prevent unwanted behaviors - supports both project and user-level rules",
+  "description": "Create hooks to prevent unwanted behaviors - supports both project and user-level rules. Forked from Anthropic's hookify plugin.",
   "author": {
     "name": "Gannon Hall",
     "email": "gannon@gannonhall.com"
   },
   "repository": "https://github.com/gannonh/gannon-plugins",
   "license": "MIT",
-  "keywords": ["hooks", "rules", "automation", "prevention", "warnings"],
-  "originalAuthor": {
-    "name": "Daisy Hollman",
-    "email": "daisy@anthropic.com",
-    "note": "Forked from anthropics/claude-code hookify plugin"
-  }
+  "keywords": ["hooks", "rules", "automation", "prevention", "warnings"]
 }
