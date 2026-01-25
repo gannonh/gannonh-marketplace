@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:discuss-phase</user_command>
+
+
 <objective>
 Extract implementation decisions that downstream agents need — researcher and planner will use CONTEXT.md to know what to investigate and what choices are locked.
 

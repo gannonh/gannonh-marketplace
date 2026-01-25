@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:configure-settings</user_command>
+
+
 <objective>
 Allow users to toggle workflow agents on/off and select model profile via interactive settings.
 

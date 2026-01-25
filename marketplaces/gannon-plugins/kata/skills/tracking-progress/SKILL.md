@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:check-progress</user_command>
+
+
 <objective>
 Check project progress, summarize recent work and what's ahead, then intelligently route to the next action - either executing an existing plan or creating the next one.
 

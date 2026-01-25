@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:insert-phase</user_command>
+
+
 <objective>
 Insert a decimal phase for urgent work discovered mid-milestone that must be completed between existing integer phases.
 

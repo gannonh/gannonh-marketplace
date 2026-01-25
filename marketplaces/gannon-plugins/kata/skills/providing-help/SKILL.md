@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:help</user_command>
+
+
 <objective>
 Display the complete Kata command reference with version info.
 

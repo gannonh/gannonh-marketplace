@@ -13,6 +13,9 @@ allowed-tools:
   - Write
 ---
 
+<user_command>/kata:audit-milestone</user_command>
+
+
 <objective>
 Verify milestone achieved its definition of done. Check requirements coverage, cross-phase integration, and end-to-end flows.
 

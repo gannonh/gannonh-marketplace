@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:debug-issue</user_command>
+
+
 <objective>
 Debug issues using scientific method with subagent isolation.
 

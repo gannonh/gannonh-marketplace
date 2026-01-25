@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:resume-work</user_command>
+
+
 <objective>
 Restore complete project context and resume work seamlessly from previous session.
 

@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:quick-task</user_command>
+
+
 <objective>
 Execute small, ad-hoc tasks with Kata guarantees (atomic commits, STATE.md tracking) while skipping optional agents (research, plan-checker, verifier).
 

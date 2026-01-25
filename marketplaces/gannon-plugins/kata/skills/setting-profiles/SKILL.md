@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:set-profile</user_command>
+
+
 <objective>
 Switch the model profile used by Kata agents. This controls which Claude model each agent uses, balancing quality vs token spend.
 </objective>

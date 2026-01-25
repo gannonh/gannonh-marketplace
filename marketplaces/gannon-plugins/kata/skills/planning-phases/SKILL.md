@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:plan-phase</user_command>
+
+
 <execution_context>
 @./references/ui-brand.md
 </execution_context>

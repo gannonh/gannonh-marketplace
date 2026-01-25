@@ -10,12 +10,16 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:add-phase</user_command>
+
 <objective>
 Add a new integer phase to the end of the current milestone in the roadmap.
 
 This command appends sequential phases to the current milestone's phase list, automatically calculating the next phase number based on existing phases.
 
 Purpose: Add planned work discovered during execution that belongs at the end of current milestone.
+
+IMPORTANT: When showing examples to users, always use `/kata:add-phase` (the command), not the skill name.
 </objective>
 
 <execution_context>

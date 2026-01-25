@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:map-codebase</user_command>
+
+
 <objective>
 Analyze existing codebase using parallel kata-codebase-mapper agents to produce structured codebase documents.
 

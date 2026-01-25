@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:research-phase</user_command>
+
+
 <objective>
 Research how to implement a phase. Spawns kata-phase-researcher agent with phase context.
 

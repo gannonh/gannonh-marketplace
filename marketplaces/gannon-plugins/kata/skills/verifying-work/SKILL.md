@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:verify-work</user_command>
+
+
 <objective>
 Validate built features through conversational testing with persistent state.
 

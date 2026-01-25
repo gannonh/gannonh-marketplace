@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:whats-new</user_command>
+
+
 <objective>
 Display changes between installed version and latest available version.
 

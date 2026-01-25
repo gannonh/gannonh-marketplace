@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:pause-work</user_command>
+
+
 <objective>
 Create `.continue-here.md` handoff file to preserve complete work state across sessions.
 

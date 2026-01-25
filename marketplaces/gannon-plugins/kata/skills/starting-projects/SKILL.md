@@ -12,6 +12,9 @@ allowed-tools:
   - AskUserQuestion
 ---
 
+<user_command>/kata:new-project</user_command>
+
+
 <objective>
 
 Initialize a new project through unified flow: questioning → research (optional) → requirements → roadmap.

@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:execute-phase</user_command>
+
+
 <objective>
 Execute all plans in a phase using wave-based parallel execution.
 

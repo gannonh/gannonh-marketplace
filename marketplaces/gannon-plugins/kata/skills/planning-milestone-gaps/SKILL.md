@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:plan-milestone-gaps</user_command>
+
+
 <objective>
 Create all phases necessary to close gaps identified by `/kata:audit-milestone`.
 

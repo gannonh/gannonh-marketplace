@@ -10,6 +10,9 @@ allowed-tools:
   - Bash
 ---
 
+<user_command>/kata:check-todos</user_command>
+
+
 <objective>
 List all pending todos, allow selection, load full context for the selected todo, and route to appropriate action.
 

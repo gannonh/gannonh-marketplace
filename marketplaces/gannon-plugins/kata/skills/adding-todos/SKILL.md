@@ -11,6 +11,9 @@ allowed-tools:
   - Glob
 ---
 
+<user_command>/kata:add-todo</user_command>
+
+
 <objective>
 Capture an idea, task, or issue that surfaces during a Kata session as a structured todo for later work.
 
