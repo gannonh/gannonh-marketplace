@@ -1,7 +1,7 @@
 ---
-name: kata:todos-add
-description: Capture idea or task as todo from current conversation context
-argument-hint: [optional description]
+name: kata:check-progress
+description: Check project progress, show context, and route to next action (execute or plan)
+argument-hint: <description>
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-adding-todos")`
+`Skill("kata-tracking-progress")`

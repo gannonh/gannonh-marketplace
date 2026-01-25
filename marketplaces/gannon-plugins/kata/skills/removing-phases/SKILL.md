@@ -27,15 +27,15 @@ Output: Phase deleted, all subsequent phases renumbered, git commit as historica
 <step name="parse_arguments">
 Parse the command arguments:
 - Argument is the phase number to remove (integer or decimal)
-- Example: `/kata:phase-remove 17` → phase = 17
-- Example: `/kata:phase-remove 16.1` → phase = 16.1
+- Example: `/kata:remove-phase 17` → phase = 17
+- Example: `/kata:remove-phase 16.1` → phase = 16.1
 
 If no argument provided:
 
 ```
 ERROR: Phase number required
-Usage: /kata:phase-remove <phase-number>
-Example: /kata:phase-remove 17
+Usage: /kata:remove-phase <phase-number>
+Example: /kata:remove-phase 17
 ```
 
 Exit.
@@ -81,7 +81,7 @@ Only future phases can be removed:
 - Current phase: {current}
 - Phase {target} is current or completed
 
-To abandon current work, use /kata:phase-pause instead.
+To abandon current work, use /kata:pause-work instead.
 ```
 
 Exit.
@@ -292,7 +292,7 @@ Current position: Phase {current} of {new-total}
 ## What's Next
 
 Would you like to:
-- `/kata:project-status` — see updated roadmap status
+- `/kata:check-progress` — see updated roadmap status
 - Continue with current phase
 - Review roadmap
 

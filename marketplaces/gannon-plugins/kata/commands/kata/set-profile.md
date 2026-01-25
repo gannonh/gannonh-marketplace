@@ -1,6 +1,6 @@
 ---
-name: kata:phase-pause
-description: Create context handoff when pausing work mid-phase
+name: kata:set-profile
+description: Switch model profile for Kata agents (quality/balanced/budget)
 argument-hint: <description>
 version: 0.1.0
 disable-model-invocation: true
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-pausing-work")`
+`Skill("kata-setting-profiles")`

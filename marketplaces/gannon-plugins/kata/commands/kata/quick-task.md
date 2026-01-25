@@ -1,6 +1,6 @@
 ---
-name: kata:settings-config
-description: Configure Kata workflow toggles and model profile
+name: kata:quick-task
+description: Execute a quick task with Kata guarantees (atomic commits, state tracking) but skip optional agents
 argument-hint: <description>
 version: 0.1.0
 disable-model-invocation: true
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-configuring-settings")`
+`Skill("kata-executing-task-executes")`

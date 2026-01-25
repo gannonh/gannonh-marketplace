@@ -1,7 +1,7 @@
 ---
-name: kata:milestone-audit
-description: Audit milestone completion against original intent before archiving
-argument-hint: [version]
+name: kata:plan-milestone-gaps
+description: Create phases to close all gaps identified by milestone audit
+argument-hint: <description>
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-auditing-milestones")`
+`Skill("kata-planning-milestone-gaps")`

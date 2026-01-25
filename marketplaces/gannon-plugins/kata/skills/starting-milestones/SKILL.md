@@ -24,7 +24,7 @@ This is the brownfield equivalent of project-new. The project exists, PROJECT.md
 - `.planning/ROADMAP.md` — phase structure (continues numbering)
 - `.planning/STATE.md` — reset for new milestone
 
-**After this command:** Run `/kata:phase-plan [N]` to start execution.
+**After this command:** Run `/kata:plan-phase [N]` to start execution.
 </objective>
 
 <execution_context>
@@ -690,14 +690,14 @@ Present completion with next steps:
 
 **Phase [N]: [Phase Name]** — [Goal from ROADMAP.md]
 
-`/kata:phase-discuss [N]` — gather context and clarify approach
+`/kata:discuss-phase [N]` — gather context and clarify approach
 
 <sub>`/clear` first → fresh context window</sub>
 
 ---
 
 **Also available:**
-- `/kata:phase-plan [N]` — skip discussion, plan directly
+- `/kata:plan-phase [N]` — skip discussion, plan directly
 
 ───────────────────────────────────────────────────────────────
 
@@ -717,7 +717,7 @@ Present completion with next steps:
 - [ ] User feedback incorporated (if any)
 - [ ] ROADMAP.md created with phases continuing from previous milestone
 - [ ] All commits made (if planning docs committed)
-- [ ] User knows next step is `/kata:phase-discuss [N]`
+- [ ] User knows next step is `/kata:discuss-phase [N]`
 
 **Atomic commits:** Each phase commits its artifacts immediately. If context is lost, artifacts persist.
 </success_criteria>

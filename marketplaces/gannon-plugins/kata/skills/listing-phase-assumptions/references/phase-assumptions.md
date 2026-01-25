@@ -14,8 +14,8 @@ Phase number: $ARGUMENTS (required)
 ```
 Error: Phase number required.
 
-Usage: /kata:phase-assumptions [phase-number]
-Example: /kata:phase-assumptions 3
+Usage: /kata:list-assumptions [phase-number]
+Example: /kata:list-assumptions 3
 ```
 
 Exit workflow.
@@ -153,8 +153,8 @@ Present next steps:
 
 ```
 What's next?
-1. Discuss context (/kata:phase-discuss ${PHASE}) - Let me ask you questions to build comprehensive context
-2. Plan this phase (/kata:phase-plan ${PHASE}) - Create detailed execution plans
+1. Discuss context (/kata:discuss-phase ${PHASE}) - Let me ask you questions to build comprehensive context
+2. Plan this phase (/kata:plan-phase ${PHASE}) - Create detailed execution plans
 3. Re-examine assumptions - I'll analyze again with your corrections
 4. Done for now
 ```

@@ -1,7 +1,7 @@
 ---
-name: kata:phase-assumptions
-description: Surface Claude's assumptions about a phase approach before planning
-argument-hint: [phase]
+name: kata:new-project
+description: Initialize a new project with deep context gathering and PROJECT.md
+argument-hint: <description>
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-listing-phase-assumptions")`
+`Skill("kata-starting-projects")`

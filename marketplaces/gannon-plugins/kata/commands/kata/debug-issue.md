@@ -1,7 +1,7 @@
 ---
-name: kata:models-config
-description: Switch model profile for Kata agents (quality/balanced/budget)
-argument-hint: <description>
+name: kata:debug-issue
+description: Systematic debugging with persistent state across context resets
+argument-hint: [issue description]
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-setting-profiles")`
+`Skill("kata-debugging")`

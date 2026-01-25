@@ -1,6 +1,6 @@
 ---
-name: kata:project-new
-description: Initialize a new project with deep context gathering and PROJECT.md
+name: kata:resume-work
+description: Resume work from previous session with full context restoration
 argument-hint: <description>
 version: 0.1.0
 disable-model-invocation: true
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-starting-projects")`
+`Skill("kata-resuming-work")`

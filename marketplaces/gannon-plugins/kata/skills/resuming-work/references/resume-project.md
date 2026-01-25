@@ -30,7 +30,7 @@ ls .planning/PROJECT.md 2>/dev/null && echo "Project file exists"
 
 **If STATE.md exists:** Proceed to load_state
 **If only ROADMAP.md/PROJECT.md exist:** Offer to reconstruct STATE.md
-**If .planning/ doesn't exist:** This is a new project - route to /kata:project-new
+**If .planning/ doesn't exist:** This is a new project - route to /kata:new-project
 </step>
 
 <step name="load_state">
@@ -128,7 +128,7 @@ Present complete project status to user:
     Resume with: Task tool (resume parameter with agent ID)
 
 [If pending todos exist:]
-📋 [N] pending todos — /kata:todos-lists to review
+📋 [N] pending todos — /kata:check-todoss to review
 
 [If blockers exist:]
 ⚠️  Carried concerns:
@@ -184,11 +184,11 @@ What would you like to do?
 [Primary action based on state - e.g.:]
 1. Resume interrupted agent [if interrupted agent found]
    OR
-1. Execute phase (/kata:phase-execute {phase})
+1. Execute phase (/kata:execute-phase {phase})
    OR
-1. Discuss Phase 3 context (/kata:phase-discuss 3) [if CONTEXT.md missing]
+1. Discuss Phase 3 context (/kata:discuss-phase 3) [if CONTEXT.md missing]
    OR
-1. Plan Phase 3 (/kata:phase-plan 3) [if CONTEXT.md exists or discuss option declined]
+1. Plan Phase 3 (/kata:plan-phase 3) [if CONTEXT.md exists or discuss option declined]
 
 [Secondary options:]
 2. Review current phase status
@@ -219,7 +219,7 @@ Based on user selection, route to appropriate workflow:
 
   **{phase}-{plan}: [Plan Name]** — [objective from PLAN.md]
 
-  `/kata:phase-execute {phase}`
+  `/kata:execute-phase {phase}`
 
   <sub>`/clear` first → fresh context window</sub>
 
@@ -233,15 +233,15 @@ Based on user selection, route to appropriate workflow:
 
   **Phase [N]: [Name]** — [Goal from ROADMAP.md]
 
-  `/kata:phase-plan [phase-number]`
+  `/kata:plan-phase [phase-number]`
 
   <sub>`/clear` first → fresh context window</sub>
 
   ---
 
   **Also available:**
-  - `/kata:phase-discuss [N]` — gather context first
-  - `/kata:phase-research [N]` — investigate unknowns
+  - `/kata:discuss-phase [N]` — gather context first
+  - `/kata:research-phase [N]` — investigate unknowns
 
   ---
   ```

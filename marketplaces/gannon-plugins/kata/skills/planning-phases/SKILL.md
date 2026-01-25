@@ -44,7 +44,7 @@ Normalize phase input in step 2 before any directory lookups.
 ls .planning/ 2>/dev/null
 ```
 
-**If not found:** Error - user should run `/kata:project-new` first.
+**If not found:** Error - user should run `/kata:new-project` first.
 
 **Resolve model profile for agent spawning:**
 
@@ -288,7 +288,7 @@ Fill prompt with inlined content and spawn:
 </planning_context>
 
 <downstream_consumer>
-Output consumed by /kata:phase-execute
+Output consumed by /kata:execute-phase
 Plans must be executable prompts with:
 
 - Frontmatter (wave, depends_on, files_modified, autonomous)
@@ -492,7 +492,7 @@ Verification: {Passed | Passed with override | Skipped}
 
 **Execute Phase {X}** — run all {N} plans
 
-/kata:phase-execute {X}
+/kata:execute-phase {X}
 
 <sub>/clear first → fresh context window</sub>
 
@@ -500,7 +500,7 @@ Verification: {Passed | Passed with override | Skipped}
 
 **Also available:**
 - cat .planning/phases/{phase-dir}/*-PLAN.md — review plans
-- /kata:phase-plan {X} --research — re-research first
+- /kata:plan-phase {X} --research — re-research first
 
 ───────────────────────────────────────────────────────────────
 </offer_next>

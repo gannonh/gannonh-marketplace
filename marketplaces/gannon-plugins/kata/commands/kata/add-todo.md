@@ -1,7 +1,7 @@
 ---
-name: kata:phase-research
-description: Research how to implement a phase (standalone - usually use /kata:phase-plan instead)
-argument-hint: [phase]
+name: kata:add-todo
+description: Capture idea or task as todo from current conversation context
+argument-hint: [optional description]
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-researching-phases")`
+`Skill("kata-adding-todos")`

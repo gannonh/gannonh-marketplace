@@ -39,7 +39,7 @@ Note existing areas for consistency in infer_area step.
 
 <step name="extract_content">
 **With arguments:** Use as the title/focus.
-- `/kata:todos-add Add auth token refresh` → title = "Add auth token refresh"
+- `/kata:add-todo Add auth token refresh` → title = "Add auth token refresh"
 
 **Without arguments:** Analyze recent conversation to extract:
 - The specific problem, idea, or task discussed
@@ -167,7 +167,7 @@ Would you like to:
 
 1. Continue with current work
 2. Add another todo
-3. View all todos (/kata:todos-lists)
+3. View all todos (/kata:check-todoss)
 ```
 </step>
 

@@ -1,5 +1,5 @@
 ---
-name: kata:project-analyze
+name: kata:map-codebase
 description: Analyze codebase with parallel mapper agents to produce .planning/codebase/ documents
 argument-hint: [optional: specific area to map, e.g., 'api' or 'auth']
 version: 0.1.0

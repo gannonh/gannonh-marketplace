@@ -28,15 +28,15 @@ Purpose: Add planned work discovered during execution that belongs at the end of
 <step name="parse_arguments">
 Parse the command arguments:
 - All arguments become the phase description
-- Example: `/kata:phase-add Add authentication` → description = "Add authentication"
-- Example: `/kata:phase-add Fix critical performance issues` → description = "Fix critical performance issues"
+- Example: `/kata:add-phase Add authentication` → description = "Add authentication"
+- Example: `/kata:add-phase Fix critical performance issues` → description = "Fix critical performance issues"
 
 If no arguments provided:
 
 ```
 ERROR: Phase description required
-Usage: /kata:phase-add <description>
-Example: /kata:phase-add Add authentication system
+Usage: /kata:add-phase <description>
+Example: /kata:add-phase Add authentication system
 ```
 
 Exit.
@@ -130,7 +130,7 @@ Add the new phase entry to the roadmap:
    **Plans:** 0 plans
 
    Plans:
-   - [ ] TBD (run /kata:phase-plan {N} to break down)
+   - [ ] TBD (run /kata:plan-phase {N} to break down)
 
    **Details:**
    [To be added during planning]
@@ -172,14 +172,14 @@ Project state updated: .planning/STATE.md
 
 **Phase {N}: {description}**
 
-`/kata:phase-plan {N}`
+`/kata:plan-phase {N}`
 
 <sub>`/clear` first → fresh context window</sub>
 
 ---
 
 **Also available:**
-- `/kata:phase-add <description>` — add another phase
+- `/kata:add-phase <description>` — add another phase
 - Review roadmap
 
 ---
@@ -192,8 +192,8 @@ Project state updated: .planning/STATE.md
 
 - Don't modify phases outside current milestone
 - Don't renumber existing phases
-- Don't use decimal numbering (that's /kata:phase-insert)
-- Don't create plans yet (that's /kata:phase-plan)
+- Don't use decimal numbering (that's /kata:insert-phase)
+- Don't create plans yet (that's /kata:plan-phase)
 - Don't commit changes (user decides when to commit)
   </anti_patterns>
 

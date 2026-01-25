@@ -1,7 +1,7 @@
 ---
-name: kata:phase-remove
-description: Remove a future phase from roadmap and renumber subsequent phases
-argument-hint: <phase-number>
+name: kata:audit-milestone
+description: Audit milestone completion against original intent before archiving
+argument-hint: [version]
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-removing-phases")`
+`Skill("kata-auditing-milestones")`

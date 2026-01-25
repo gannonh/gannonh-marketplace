@@ -1,7 +1,7 @@
 ---
-name: kata:phase-execute
-description: Execute all plans in a phase with wave-based parallelization
-argument-hint: <phase-number> [--gaps-only]
+name: kata:verify-work
+description: Validate built features through conversational UAT
+argument-hint: [phase number, e.g., '4']
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-executing-phases")`
+`Skill("kata-verifying-work")`

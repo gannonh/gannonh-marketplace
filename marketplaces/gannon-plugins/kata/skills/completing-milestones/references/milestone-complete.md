@@ -527,7 +527,7 @@ Archive requirements and prepare for fresh requirements in next milestone.
    ✅ REQUIREMENTS.md deleted (fresh one needed for next milestone)
    ```
 
-**Important:** The next milestone workflow starts with `/kata:milestone-new` which includes requirements definition. PROJECT.md's Validated section carries the cumulative record across milestones.
+**Important:** The next milestone workflow starts with `/kata:new-milestone` which includes requirements definition. PROJECT.md's Validated section carries the cumulative record across milestones.
 
 </step>
 
@@ -693,7 +693,7 @@ Tag: v[X.Y]
 
 **Start Next Milestone** — questioning → research → requirements → roadmap
 
-`/kata:milestone-new`
+`/kata:new-milestone`
 
 <sub>`/clear` first → fresh context window</sub>
 
@@ -755,6 +755,6 @@ Milestone completion is successful when:
 - [ ] STATE.md updated with fresh project reference
 - [ ] Git tag created (v[X.Y])
 - [ ] Milestone commit made (includes archive files and deletion)
-- [ ] User knows next step (/kata:milestone-new)
+- [ ] User knows next step (/kata:new-milestone)
 
 </success_criteria>

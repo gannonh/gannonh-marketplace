@@ -1,7 +1,7 @@
 ---
-name: kata:phase-discuss
-description: Gather phase context through adaptive questioning before planning
-argument-hint: <phase>
+name: kata:execute-phase
+description: Execute all plans in a phase with wave-based parallelization
+argument-hint: <phase-number> [--gaps-only]
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-discussing-phases")`
+`Skill("kata-executing-phases")`

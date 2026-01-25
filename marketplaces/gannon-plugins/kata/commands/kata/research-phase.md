@@ -1,7 +1,7 @@
 ---
-name: kata:phase-insert
-description: Insert urgent work as decimal phase (e.g., 72.1) between existing phases
-argument-hint: <after> <description>
+name: kata:research-phase
+description: Research how to implement a phase (standalone - usually use /kata:phase-plan instead)
+argument-hint: [phase]
 version: 0.1.0
 disable-model-invocation: true
 allowed-tools:
@@ -17,4 +17,4 @@ Arguments: "$ARGUMENTS"
 ## Step 2: Invoke Skill
 
 Run the following skill:
-`Skill("kata-inserting-phases")`
+`Skill("kata-researching-phases")`

@@ -1,5 +1,5 @@
 ---
-name: kata:todos-list
+name: kata:check-todos
 description: List pending todos and select one to work on
 argument-hint: [area filter]
 version: 0.1.0
