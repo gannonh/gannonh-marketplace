@@ -37,6 +37,7 @@ description: |
   </commentary>
   assistant: "Now I'll use the code-simplifier agent to ensure the optimized code is also clear and follows our coding standards"
   </example>
+model: inherit
 color: green
 ---
 
