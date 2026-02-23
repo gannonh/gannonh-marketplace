@@ -1,0 +1,30 @@
+{
+  "name": "gannonh-marketplace",
+  "owner": {
+    "name": "Gannon Hall"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace"
+  },
+  "plugins": [
+    {
+      "name": "pr-review-plugin",
+      "source": "./plugins/pr-review-plugin",
+      "description": "Comprehensive PR review agents specializing in comments, tests, error handling, type design, code quality, and code simplification",
+      "version": "1.0.0",
+      "author": {
+        "name": "gannonh",
+        "url": "https://github.com/gannonh"
+      },
+      "category": "productivity",
+      "keywords": [
+        "code-review",
+        "pr-review",
+        "agents",
+        "testing",
+        "error-handling",
+        "type-design"
+      ]
+    }
+  ]
+}
