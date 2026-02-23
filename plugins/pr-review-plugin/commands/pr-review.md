@@ -1,7 +1,6 @@
 ---
 description: "Comprehensive PR review using specialized agents"
 argument-hint: "[review-aspects]"
-allowed-tools: ["Bash", "Glob", "Grep", "Read", "Task"]
 ---
 
 # Comprehensive PR Review
@@ -87,31 +86,6 @@ Run a comprehensive pull request review using multiple specialized agents, each 
    4. Re-run review after fixes
    ```
 
-## Usage Examples:
-
-**Full review (default):**
-```
-/pr-review-toolkit:review-pr
-```
-
-**Specific aspects:**
-```
-/pr-review-toolkit:review-pr tests errors
-# Reviews only test coverage and error handling
-
-/pr-review-toolkit:review-pr comments
-# Reviews only code comments
-
-/pr-review-toolkit:review-pr simplify
-# Simplifies code after passing review
-```
-
-**Parallel review:**
-```
-/pr-review-toolkit:review-pr all parallel
-# Launches all agents in parallel
-```
-
 ## Agent Descriptions:
 
 **comment-analyzer**:
@@ -153,37 +127,9 @@ Run a comprehensive pull request review using multiple specialized agents, each 
 - **Re-run after fixes**: Verify issues are resolved
 - **Use specific reviews**: Target specific aspects when you know the concern
 
-## Workflow Integration:
-
-**Before committing:**
-```
-1. Write code
-2. Run: /pr-review-toolkit:review-pr code errors
-3. Fix any critical issues
-4. Commit
-```
-
-**Before creating PR:**
-```
-1. Stage all changes
-2. Run: /pr-review-toolkit:review-pr all
-3. Address all critical and important issues
-4. Run specific reviews again to verify
-5. Create PR
-```
-
-**After PR feedback:**
-```
-1. Make requested changes
-2. Run targeted reviews based on feedback
-3. Verify issues are resolved
-4. Push updates
-```
-
 ## Notes:
 
 - Agents run autonomously and return detailed reports
 - Each agent focuses on its specialty for deep analysis
 - Results are actionable with specific file:line references
 - Agents use appropriate models for their complexity
-- All agents available in `/agents` list
